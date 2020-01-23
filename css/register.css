@@ -1,0 +1,38 @@
+.reg-container{
+	border:3px dotted #FFBF00;
+	font-size: 17px;
+	padding: 16px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.reg-container input[type=text],.reg-container input[type=password],.reg-container input[type=date],.reg-container input[type=email],.reg-container input[type=tel] {
+  width: 90%;
+  padding: 5px;
+  margin: 0px 0 0px 0px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+.reg-container input[type=text]:focus,.reg-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.register-btn {
+  background-color: #FFBF00;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  opacity: 0.9;
+}
+.register-btn:hover {
+  opacity:1;
+}

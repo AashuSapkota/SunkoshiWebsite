@@ -1,0 +1,202 @@
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1.8rem;
+    padding-left: .5rem;
+}}
+*{
+    box-sizing: border-box;
+    text-align: justify;
+}
+.header-container{
+    width: 100%;
+    height: 100px;
+    left: 20;
+    background-color: white;
+    display: flex;
+    margin-top: 15px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: -130px;
+}
+.header-text-left{
+    color: red;
+    margin-left: 10px;
+}
+.header-logo-right{
+    padding: 30px;
+}
+.navigation{
+    margin:20px 0px 25px 15px;
+    width: 98%;
+    align-items: center;
+}
+.navigation li{
+    padding: 0px 20px;
+}
+.image-container{
+    width: 100%;
+}
+.body-text{
+    display: flex;
+}
+.body-container{
+    padding: 20px;
+}
+.body-images-rw1{
+    display: flex;
+}
+.body-images-rw2{
+    display: flex;
+}
+.body-images-margin{
+    margin: auto;
+}
+.footer{
+    display: flex;
+    background-color:yellowgreen;
+    width: 100%;
+    height: 250px;
+}
+.copyright{
+    background-color: tomato;
+}
+.introduction-image{
+    text-align: center;
+}
+.introduction-links{
+    display: flex;
+}
+.notice-display{
+    display: flex;
+}
+.notice-size{
+    border: 2px solid orangered;
+    background-color: khaki;
+    color: lightcoral;
+    margin: 10px 10px 30px 0;
+}
+.gallery-display{
+    display: flex;
+}
+.gallery-image-size{
+    margin: 10px 10px 30px 0;
+}
+.login-card{
+    display: block;
+    margin: auto ;
+    height: 370px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-card-body{
+    padding: 20px 0 0 110px;
+}
+.login-card-header{
+    text-align: center;
+    margin-top: 1px;
+}
+.login-card-header h2{
+        font-size: 3em;
+        font-weight: 300;
+        color: rgba(100, 100, 400, 200);
+        display: inline-block;
+        padding-bottom: 5px;
+        text-shadow: 1px 1px 3px shadow-color;
+}
+.login-button{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    margin: 10px 10px 0 0;
+}
+.login-button:hover{
+    color: black;
+    background-color: white;
+}
+.login-card-form{
+    margin-top: 10px;
+}
+.contact-floatingbody{
+    display: flex;
+}
+.contact-floating-body-display{
+    margin: 10px 10px 30px 0;
+    background-color:rgba(55, 0, 80, 25)
+}
+.contact-floatingbody h1{
+    color: crimson;
+    text-align: center;
+}
+.contact-floatingbody-left-text h5{
+    color: darkgoldenrod;
+    text-align: center;
+}
+.contact-floatingbody-center-text h5{
+    color: darkgoldenrod;
+    text-align: center;
+}
+.contact-floatingbody-right-text h5{
+    color: darkgoldenrod;
+    text-align: center;
+}
+.contact-email-container{
+    background-color:rgba(55, 0, 80, 25);
+    height: 400px;
+    margin-bottom: 30px;
+}
+.contact-email-container h3{
+    color: crimson;
+    text-align: center;
+}
+.contact-email-container h5{
+    color: darkgoldenrod;
+    text-align: center;
+}
+.contact-email-form{
+    text-align: center;
+}
+.contact-submit-btn{
+    text-align: center;
+}
+.contact-form{
+    text-align: center;
+    padding: 10px;
+}
+.contact-form input[type=text]{
+    background-color: #99FFFF;
+    color: black;
+}
+.contact-form input[type=email]{
+    background-color: #99FFFF;
+    color: black;
+}
+.egov-body-diaplay{
+    /* border: 2px solid rebeccapurple; */
+    margin: 20px;
+}
+.egov-body-rw1{
+    display: flex;
+}
+.egov-btn{
+    display: flex;
+}
+.project-body-rw1{
+    display: flex;
+}
+.project-content-display{
+    margin-right: 30px;
+}
